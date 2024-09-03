@@ -9,9 +9,7 @@ const Home = () => {
       <h1 className="mb-1 font-mono text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
         {m.main_title()}
       </h1>
-      <p className="text-muted-foreground max-w-2xl">
-        {m.main_description()}
-      </p>
+      <p className="text-muted-foreground max-w-2xl">{m.main()}</p>
       <div className="mt-1">
         <HeroForm />
       </div>
