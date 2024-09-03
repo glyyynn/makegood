@@ -1,6 +1,6 @@
 {
     "$schema": "https://inlang.com/schema/inlang-message-format",
-    "app_name": "next-starter",
+    "app_name": "make good ai",
     "sign_in": "Sign in",
     "theme_toggle_label": "theme toggle",
     "my_account": "My Account",
