@@ -24,5 +24,7 @@
   "nextjs_starter_template_headline": "Next.js starter template",
   "nextjs_starter_template_description": "Szablon startowy Next.js, wyposażony w funkcje takie jak TypeScript, Tailwind CSS, Next-auth, Eslint, Stripe, Paraglide, narzędzia testowe i nie tylko. Rozpocznij swój projekt z wydajnością i stylem.",
   "get_started": "Zacznij",
-  "github": "Github"
+  "github": "Github",
+  "main_title": "make good ai",
+  "main_description": "finding ways to make good with intelligence, artificial and human"
 }
