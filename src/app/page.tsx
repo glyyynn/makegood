@@ -10,7 +10,7 @@ const Home = () => {
         {m.main_title()}
       </h1>
       <p className="text-muted-foreground max-w-2xl">
-        {m.nextjs_starter_template_description()}
+        {m.main_description()}
       </p>
       <div className="mt-1">
         <HeroForm />
