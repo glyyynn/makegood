@@ -3,7 +3,7 @@ import { authOptions } from '@/app/api/auth/[...nextauth]/auth-options';
 
 const handler = async (req: any, res: any) => {
   // Log the environment variables
-  console.log('GITHUB_ID:', process.env.GITHUB_ID);     // Check if this is correctly loaded
+  console.log('GITHUB_ID:', process.env.GITHUB_ID); // Check if this is correctly loaded
   console.log('GITHUB_SECRET:', process.env.GITHUB_SECRET); // Check if this is correctly loaded
 
   // Proceed with NextAuth using authOptions
