@@ -11,6 +11,7 @@ export const SignInButton = () => {
   const [isPending, startTransition] = useTransition();
 
   const handleSignIn = () => {
+    console.log('checking sign in')
     startTransition(async () => {
       await signIn('github');
     });
