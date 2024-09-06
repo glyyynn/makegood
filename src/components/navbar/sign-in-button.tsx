@@ -12,6 +12,10 @@ export const SignInButton = () => {
 
   const handleSignIn = () => {
     console.log('checking sign in');
+
+    console.log(process.env.GITHUB_ID);
+    console.log(process.env.GITHUB_SECRET);
+
     startTransition(async () => {
       await signIn('github');
     });
