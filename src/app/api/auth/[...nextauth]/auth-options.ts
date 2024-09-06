@@ -6,12 +6,15 @@ import { env } from '@/env.mjs';
 import prisma from '@/lib/prisma';
 import { stripeServer } from '@/lib/stripe';
 
+console.log(env.GITHUB_ID);
+console.log(env.GITHUB_SECRET);
+
 export const authOptions: NextAuthOptions = {
   adapter: PrismaAdapter(prisma),
   providers: [
     GitHubProvider({
-      clientId: env.GITHUB_ID,
-      clientSecret: env.GITHUB_SECRET,
+      clientId: process.env.GITHUB_ID,
+      clientSecret: process.env.GITHUB_SECRET,
     }),
   ],
   callbacks: {
