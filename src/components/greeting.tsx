@@ -8,7 +8,7 @@ export const Greeting = async () => {
   if (!session) {
     return (
       <div>
-        <h2>Welcome, Guest!</h2>
+        <h2>Greetings, Guest!</h2>
         <p>Please sign in to access more features.</p>
       </div>
     );
